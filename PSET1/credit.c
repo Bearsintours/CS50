@@ -11,6 +11,7 @@ int count = 0;
 
 int main(){
     do{
+        // prompt to ender cc number until valid
         printf("Enter credit card number: \n");
         cc_num = get_long_long();
     }
@@ -44,13 +45,15 @@ int main(){
                 first_digit = k;
             }
         }
-
+        // check if amex
         if(count == 15 && (first2_digits == 34 || first2_digits == 37)){
             printf("AMEX\n");
         }
+        // check if mastercard
         else if(count == 16 && first2_digits >= 51 && first2_digits <= 55){
             printf("MASTERCARD\n");
         }
+        // check if visa
         else if((count == 13 || count == 16) && first_digit == 4){
             printf("VISA\n");
         }
