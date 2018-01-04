@@ -9,7 +9,7 @@ int main(void){
     }
     while(minutes < 0);
 
-    int bottles = minutes*12;
+    int bottles = minutes * 12;
     printf("Minutes: %i\n", minutes);
     printf("Bottles: %i\n", bottles);
 }
