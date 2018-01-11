@@ -13,3 +13,14 @@
   - mario less
   - mario more
   - water
+
+- PSET 2
+  - caesar
+  - crack
+  - initials less
+  - initials more
+  - vigenere
+  
+- PSET 3
+  - fifteen
+  - find
