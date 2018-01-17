@@ -24,3 +24,8 @@
 - PSET 3
   - fifteen
   - find
+  
+- PSET 4
+  - resize
+  - recover
+  - whodunit
