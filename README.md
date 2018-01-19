@@ -29,3 +29,6 @@
   - resize
   - recover
   - whodunit
+
+- PSET 5
+  - speller
