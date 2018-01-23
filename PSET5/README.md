@@ -1,0 +1,30 @@
+# Questions
+
+## What is pneumonoultramicroscopicsilicovolcanoconiosis?
+Some sort of nasty desease?? It's an example of the max length for a word (45)
+
+## According to its man page, what does `getrusage` do?
+getrusage(int who, struct rusage *usage) returns resource usage measures in the structure pointed to by <usage>
+
+## Per that same man page, how many members are in a variable of type `struct rusage`?
+16
+
+## Why do you think we pass `before` and `after` by reference (instead of by value) to `calculate`, even though we're not changing their contents?
+To avoid making an unnecessary copy of the struct and improve performance
+
+## Explain as precisely as possible, in a paragraph or more, how `main` goes about reading words from a file. In other words, convince us that you indeed understand how that function's `for` loop works.
+We iterate over each char of the file up to EOF with for loop.
+We define an array called word to store words.
+We initialize variables index, words and mispellings to 0;
+For each char:
+  -if it is a letter or apostroph: we append this char to our word array and we increment the index. If the string we are reading is over 45 char, we ignore it and set index to 0 for new word
+  -if it's a digit, we ignore the string and set index to 0 for new word
+Once we have found the end of a word, we terminate the word (word[index] = '\0') and we increment words.
+We check if the word is in dictionary with bool mispelled() and if it isn't, we increment mispellings.
+Finally we set index to 0 for next word.
+
+## Why do you think we used `fgetc` to read each word's characters one at a time rather than use `fscanf` with a format string like `"%s"` to read whole words at a time? Put another way, what problems might arise by relying on `fscanf` alone?
+We use fgetc() so we can filter strings and ignore non alpha characters or strings that contain more than 45 characters.
+
+## Why do you think we declared the parameters for `check` and `load` as `const` (which means "constant")?
+We declare those parameters as consts so they become constants and cannot be altered by the program
