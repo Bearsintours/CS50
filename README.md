@@ -32,3 +32,12 @@
 
 - PSET 5
   - speller
+
+- PSET 6
+  - sentimental
+    - caesar
+    - crack
+    - initials less
+    - initials more
+    - vigenere 
+  - similarities
