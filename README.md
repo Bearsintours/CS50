@@ -41,3 +41,9 @@
     - initials more
     - vigenere 
   - similarities
+  
+-PSET 7 
+  - finance
+
+-PSET 8
+  - mashup
