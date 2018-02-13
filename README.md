@@ -42,8 +42,8 @@
     - vigenere 
   - similarities
   
--PSET 7 
+- PSET 7 
   - finance
 
--PSET 8
+- PSET 8
   - mashup
