@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+    <h2>Transaction history</h2>
+    <table class="table">
+      <thead>
+        <tr class="table-primary">
+          <th scope="col">Date</th>
+          <th scope="col">Stock</th>
+          <th scope="col">Price</th>
+          <th scope="col">Shares</th>
+        </tr>
+      </thead>
+      <tbody>
+          {% for list in history %}
+            <tr>
+              <th scope="row">{{list[0]}}</th>
+              <td>{{list[1]}}</td>
+              <td>{{list[2]}}</td>
+              <td>{{list[3]}}</td>
+            </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+
+{% endblock %}
