@@ -3,7 +3,7 @@
 ### Find my solutions to each CS50 problem set as I'm going through this amazing course :
 
 -PSET 0
-  - [x]  Scratch project
+  - [x] Scratch project
   
 - PSET 1
   - [x] credit
@@ -30,7 +30,7 @@
   - [x] whodunit
 
 - PSET 5
-  [- x] speller
+  - [x] speller
 
 - PSET 6
   - sentimental
@@ -42,7 +42,7 @@
   - [x] similarities
   
 - PSET 7 
-  - [] finance
+  - [ ] finance
 
 - PSET 8
-  - [] mashup
+  - [ ] mashup
