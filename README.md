@@ -3,15 +3,15 @@
 ### Find my solutions to each CS50 problem set as I'm going through this amazing course :
 
 -PSET 0
-  [x] Scratch project
+  -[x] Scratch project
   
 - PSET 1
-  [x] credit
-  [x] greedy
-  [x] hello
-  [x] mario less
-  [x] mario more
-  [x] water
+  -[x] credit
+  -[x] greedy
+  -[x] hello
+  -[x] mario less
+  -[x] mario more
+  -[x] water
 
 - PSET 2
   [x] caesar
