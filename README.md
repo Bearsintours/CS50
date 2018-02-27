@@ -42,7 +42,7 @@
   - [x] similarities
   
 - PSET 7 
-  - [ ] finance
+  - [x] finance
 
 - PSET 8
   - [ ] mashup
